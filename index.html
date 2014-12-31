@@ -17,10 +17,13 @@
 			h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 			h1 { margin: 0.3em 0px; }
 			.container { margin: 0 auto; width: 100%; text-align: center; }
-			img.logo { margin-top: 1em; max-height: 230px; padding: 0 .5em; }
+			img.logo { margin-top: 1em; max-width: 90%; padding: 0 .5em; }
 			img.portrait { height: 200px; border-radius: .5em; border: .3em solid black; }
 			.support img { height: 100px; }
 			.infos { margin-bottom: 1em; }
+			@media (min-width: 500px) {
+				img.logo { max-width: 470px; }
+			}
 		</style>
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	</head>
@@ -40,7 +43,7 @@
 		    	<a href="http://fad.yeleman.com"><img src="IbrahimaFadiga.jpg" class="portrait" alt="Ibrahima Fadiga" /></a>
 		   	</div>
 		   	<div class="pure-u-1 support">
-				<a href="http://bamako.jokkolabs.net"><img src="jokkolabs_white.svg" /></a>		   	
+				<a href="http://bamako.jokkolabs.net"><img src="jokkolabs_white.svg" /></a>
 		   	</div>
 	    </div>
 	</body>
